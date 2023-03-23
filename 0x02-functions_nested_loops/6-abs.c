@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _abs: Calculates the value of the integer
- * @c: refesr to the value under scrutiny
+ * _abs - Calculates the value of the integer
+ * @c: Refers to the value under scrutiny
  * Return: Absolute value of number or zero
  */
 
