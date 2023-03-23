@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - Checks the code for any alphabet character
- * c - refers to the character under scrutiny
+ * @c: Refers to the character under scrutiny
  * Return: 1 for alphabatic character and zero for none
  */
 
