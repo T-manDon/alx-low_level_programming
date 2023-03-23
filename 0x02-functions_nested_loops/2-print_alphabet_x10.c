@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10.c - used to multiply the alphabets ten times
+ * print_alphabet_x10 - Used to multiply the alphabets ten times
+ * by timan
  * Return: void
  */
 
