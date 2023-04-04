@@ -3,8 +3,7 @@
 /**
  * _strpbrk - this marks the begining of the code
  * @s: this refers to the first variable
- * @k: this refers to the second variable
- * @accept: this refers to the third variable
+ * @accept: this refers to the second variable
  *
  * Return: 0
  */
