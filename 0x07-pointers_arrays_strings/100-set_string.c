@@ -1,8 +1,7 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * _putchar - the begining of the code
+ * set_string - the begining of the code
  * @s: this is s pointer that points to the other pointer
  * @to: this is the char depicting the pointer
  *
