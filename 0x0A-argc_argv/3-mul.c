@@ -44,19 +44,13 @@ int _atoi(char *s)
 	f = 0;
 
 	}
-
 	i++;
-
 	}
-
 	if (f == 0)
-
 	return (0);
 
-	return (n);
-
+return (n);
 }
-
 
 /**
  * main - main argument
@@ -81,13 +75,9 @@ int main(int argc, char *argv[])
 	}
 
 	num1 = _atoi(argv[1]);
-
 	num2 = _atoi(argv[2]);
-
 	result = num1 * num2;
-
 	printf("%d\n", result);
 
 	return (0);
-
 }
