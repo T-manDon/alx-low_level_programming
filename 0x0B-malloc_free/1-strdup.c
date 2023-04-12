@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 
-/**		
+/**
  * _strdup - put infromation in the new memory
  * @str: variable character
  * Return: 0 (Success)
@@ -28,10 +28,10 @@ char *_strdup(char *str)
 	if (aaa == NULL)
 
 	return (NULL);
-		
+
 	for (r = 0; str[r]; r++)
 	aaa[r] = str[r];
-		
+
 	return (aaa);
 }
 
