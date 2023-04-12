@@ -2,26 +2,25 @@
 #include <stdlib.h>
 
 /**
- * argstostr - introduces the code
- * @ac: first variable
- * @av: second variable
+ * argstostr - main part of the code
+ * @ac: the first variable
+ * @av: the second variable
  * Return: 0 success
  */
 
 char *argstostr(int ac, char **av)
 {
 	int i, n, r = 0, l = 0;
-
 	char *str;
 
 	if (ac == 0 || av == NULL)
 	return (NULL);
 
 	for (i = 0; i < ac; i++)
-
 	{
 	for (n = 0; av[i][n]; n++)
 	l++;
+
 	}
 
 	l += ac;
@@ -32,6 +31,7 @@ char *argstostr(int ac, char **av)
 	return (NULL);
 
 	for (i = 0; i < ac; i++)
+
 	{
 	for (n = 0; av[i][n]; n++)
 	{
@@ -39,11 +39,14 @@ char *argstostr(int ac, char **av)
 	r++;
 
 	}
+
 	if (str[r] == '\0')
+
 	{
 	str[r++] = '\n';
 	}
 
 	}
+
 	return (str);
 }
