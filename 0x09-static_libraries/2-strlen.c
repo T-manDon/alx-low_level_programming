@@ -7,10 +7,14 @@
  */
 
 int _strlen(char *s)
-{
-        int a = 0;
 
-        for (; *s++;)
-                a++;
-        return (a);
+{
+	int longi = 0;
+
+	while (*s != '\0')
+	{
+	longi++;
+	s++;
+	}
+	return (longi);
 }
