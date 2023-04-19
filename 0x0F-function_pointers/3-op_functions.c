@@ -63,7 +63,7 @@ int op_div(int a, int b)
  * op_mod - Gives the remainder
  * @a: The first value
  * @b: The second alue
- * Return: gives remander after division 
+ * Return: gives remander after division
  */
 
 int op_mod(int a, int b)
