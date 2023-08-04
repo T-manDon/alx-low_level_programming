@@ -4,6 +4,7 @@
  * print_binary - gives the binary value
  * @n: the n variable
  */
+
 void print_binary(unsigned long int n)
 {
 	int i, count = 0;
