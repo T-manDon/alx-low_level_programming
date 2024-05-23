@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #include "search_algos.h"
 
 /**
