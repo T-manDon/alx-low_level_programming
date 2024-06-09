@@ -1,13 +1,12 @@
-#!/usr/bin/env bash
 #include "search_algos.h"
 
 /**
-  * linear_search - this reps linear search
-  * @array: pointer to the array
-  * @size: array size
+  * linear_search - this is the linearr searrch
+  * @array: points to first element in the search array
+  * @size: size of array
   * @value: value to find
   *
-  * Return: 0 or -1
+  * Return: index where found or -1
   */
 
 int linear_search(int *array, size_t size, int value)
